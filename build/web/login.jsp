@@ -39,11 +39,9 @@
     <body>
         <div class="login">
             <h1>LOGIN</h1>
-            <form action="NewServlet" method="post">
+            <form action="home.jsp" method="post">
                 <input type="text" placeholder="Ime" name="name"/>
                 <input type="text" placeholder="Prezime" name="surname"/>
-<!--            <input type="number" placeholder="Godine" name="age"/>
-                <input type="number" placeholder="Ocena" name="mark"/>-->
                 <input type="submit" value="Login"/>
             </form>
         </div>
